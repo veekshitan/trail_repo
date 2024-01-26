@@ -32,7 +32,7 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
@@ -44,13 +44,14 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
 .greeting-image-div > * {
+  margin-top: 60px;
   max-width: 100%;
   height: auto;
 }
@@ -58,10 +59,18 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    max-width: 100%;
+    font-size: 40px;
   }
   .greeting-text-p {
     font-size: 20px;
+    line-height: 30px;
+    line-height: 25px;
+  }
+  .greeting-image-div > * {
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 768px) {

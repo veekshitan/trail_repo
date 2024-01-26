@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
+import all_the_data from "../../assests/images/all_the_data.svg";
+import building_websites from "../../assests/images/building_websites.svg";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
@@ -10,9 +12,9 @@ import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+    return <img src={all_the_data} alt="" />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return <img src={building_websites} alt="" />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
@@ -30,7 +32,7 @@ class SkillSection extends Component {
                 <div className="skills-image-div">
                   {/* <img
                     alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
+                    src={require(`../../assests/images/all_the_data.svg`)}
                   ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
