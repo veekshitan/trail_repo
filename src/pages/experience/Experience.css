@@ -61,12 +61,22 @@
     margin-top: 80px;
   }
   .experience-heading-sub-text {
+    margin-top: 5px;
     font-size: 25px;
   }
 
   .experience-heading-img-div > * {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
+  }
+
+  .experience-header-detail-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Google Sans Medium";
   }
 }
 

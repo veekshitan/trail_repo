@@ -88,7 +88,7 @@
 }
 
 .experience-card {
-  min-width: 350px;
+  max-width: 1000px;
   /* height: 170px; */
   margin-bottom: 20px;
   border-radius: 10px;
@@ -282,6 +282,8 @@
 @media (max-width: 768px) {
   .experience-card {
     /* margin-bottom:10px; */
+    max-width: 1000px;
+    min-width: 335px;
     flex-direction: column;
     text-align: center;
   }
