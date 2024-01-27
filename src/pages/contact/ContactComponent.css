@@ -54,10 +54,13 @@
 .address-heading-text-div {
   margin-top: 150px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-heading-img-div-2 {
-  max-height: 50%;
+  max-height: 100px;
   max-width: 60%;
 }
 .contact-heading-img-div > * {
@@ -147,8 +150,12 @@
     max-width: 60%;
   }
   .contact-heading-img-div > * {
-    max-width: 50%;
+    max-width: 95%;
     height: auto;
+  }
+
+  .contact-heading-text-div {
+    margin-top: 30px;
   }
 }
 
@@ -210,7 +217,11 @@
     max-width: 30%;
   }
   .contact-heading-img-div > * {
-    max-width: 50%;
-    height: auto;
+    max-width: 65%;
+    /* height: auto; */
+  }
+
+  .contact-heading-text-div {
+    margin-top: 30px;
   }
 }

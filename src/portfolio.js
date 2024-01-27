@@ -2,32 +2,32 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  og: {
-    title: "Ashutosh Hathidara Portfolio",
-    type: "website",
-    url: "http://ashutoshhathidara.com/",
-  },
+  // title: "Ashutosh's Portfolio",
+  // description:
+  //   "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  // og: {
+  //   title: "Ashutosh Hathidara Portfolio",
+  //   type: "website",
+  //   url: "http://ashutoshhathidara.com/",
+  // },
 };
 
 //Home Page
 const greeting = {
   title: "Balla Veekshita Naidu",
   logo_name: "VeekshitaNaidu",
-  nickname: "Veekshita",
+  nickname: "veekshita",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1mJyzlZ0pvkD0tPA2RXzG4c0nRUiU-bvs/view?usp=sharing",
+  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  githubProfile: "https://github.com/veekshitan/",
 };
 
 const socialMediaLinks = [
@@ -277,7 +277,7 @@ const degrees = {
       alt_name: "IITDh",
       duration: "2020 - 2024",
       descriptions: [
-        // "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡CPI : 9.06/10",
         // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
@@ -286,11 +286,11 @@ const degrees = {
     {
       title: "Sri Chaitanya Educational Institutions",
       subtitle: "Board of Intermediate Education",
-      logo_path: "sri_logo.png",
+      logo_path: "sri_chai_logo.jpeg",
       alt_name: "sri_logo.png",
       duration: "2018 - 2020",
       descriptions: [
-        //   "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡CGPA: 9.88/10",
         //   "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         //   "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
@@ -303,7 +303,7 @@ const degrees = {
       alt_name: "sri_logo.png",
       duration: "2012 - 2018",
       descriptions: [
-        //   "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ Percentage: 96%",
         //   "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         //   "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
@@ -430,7 +430,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with few evolving startups as a Web developer, UI desginer and ML engineer. I have also worked with some well established companies mostly as AI Developer. I love organising and managing events and that is why I am also involved with many communities and institute clubs as a representative.",
   header_image_path: "career_progress.svg",
   sections: [
     // {
@@ -503,61 +503,60 @@ const experience = {
       title: "Position of Responsibility",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          title: "Class respresentative",
+          company: "IIT Dharwad",
+          company_url: "https://www.iitdh.ac.in/",
+          logo_path: "iidh_logo.svg",
+          duration: "Aug 2022 - April 2023",
+          location: "Dharwad, Karnataka",
+          // description:
+          // "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+          title: "Coordination Team Member",
+          company: "Institute Innovation Council",
+          company_url: "https://www.iitdh.ac.in/iic/",
+          logo_path: "IICLogo.png",
+          duration: "May 2021 - Aug 2022",
+          location: "Dharwad, India",
+          // description:
+          //   "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
           color: "#D83B01",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+          title: "Student Mentor",
+          company: "Student Mentorship Program, IIT Dharwad",
+          company_url: "https://smp.iitdh.ac.in/",
+          logo_path: "iidh_logo.svg",
+          duration: "Aug 2021 - Aug 2022",
+          location: "Dharwad, Karnataka",
+          // description:
+          //   "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
           color: "#000000",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+          title: "Lead Organizer",
+          company: "Insolvent - Finance Club, IIT Dharwad",
+          company_url: "https://www.iitdh.ac.in/",
+          logo_path: "insolvent_logo.jpg",
+          duration: "Aug 2022 - Aug 2023",
+          location: "Dharwad, Karnataka",
+          // description:
+          //   "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
           color: "#0C9D58",
         },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        // {
+        //   title: "",
+        //   company: "Github",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github_logo.png",
+        //   duration: "July 2019 - PRESENT",
+        //   location: "Work From Home",
+        //   description:
+        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+        //   color: "#181717",
+        // },
       ],
     },
   ],
@@ -647,8 +646,8 @@ const contactPageData = {
     region: "Karnataka",
     postalCode: "580007",
     // streetAddress: "Ambavadi vas",
-    avatar_image_path: "message_sent.svg",
-    // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    avatar_image_path: "undraw_my_location_re_r52x.svg",
+    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
     title: "",

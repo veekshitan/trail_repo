@@ -2,78 +2,82 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "name": "My CV application",
+      "createdAt": "June 2023",
+      "url": "https://github.com/veekshitan/resume-builder",
+      "description": "🔥Developed a resume builder website that leverages user profiles to automatically fill up templates for custom, downloadable resumes. The website stores the information in a noSQL database (MongoDB) to allow users to fill it out in the resume of theirchoice",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "React",
+          "iconifyClass": "logos-react"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Express",
+          "iconifyClass": "simple-icons:express"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb"
         }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "name": "Indent Portal",
+      "createdAt": "May 2023",
+      "url": "https://github.com/Samyc2002/Indent-Form-Portal",
+      "description": "📦 Enhanced user experience by developing user-friendly React forms and automated the fund request process for RnD projects, optimizing efficiency for professors.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Django",
+          "iconifyClass": "logos-django"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb"
         }
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "name": "Animal image classification",
+      "createdAt": "April 2023",
+      "url": "",
+      "description": "🌀 Developed VGG-16 (0.93 accuracy) and ResNet50 models (0.92 accuracy) for precise animal image classification among 26,000 images to classify across 10 categories. Compared the obtained results with the Non-CNN gradient booster classifier (machine learning) model which produced an accuracy of 0.85.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Keras",
+          "iconifyClass": "simple-icons:keras"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Numpy",
+          "iconifyClass": "logos-numpy"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Python",
+          "iconifyClass": "ion-logo-python"
         }
       ]
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "name": "Stress concentration factor determination",
+      "createdAt": "November 2022",
+      "url": "",
+      "description": "⚙️ Developed a polynomial regression model with an R2 value of 0.71 for determining the stress concentration factor around grooves",
       "isFork": false,
       "languages": [
+        {
+          "name": "Numpy",
+          "iconifyClass": "logos-numpy"
+        },
         {
           "name": "Python",
           "iconifyClass": "logos-python"
@@ -82,26 +86,38 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
+      "name": "Blog application",
+      "createdAt": "May 2022",
+      "url": "https://github.com/veekshitan/blog-app",
+      "description": "🚀  High quality, super responsive blogging application platform.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "simple-icons:express"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "name": "Zomato Clone",
+      "createdAt": "April 2022",
+      "url": "https://github.com/veekshitan/zomato-clone",
+      "description": "🚀 Developed the frontend clone of one of the fastest growing startups of the country - Zomato",
       "isFork": false,
       "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"

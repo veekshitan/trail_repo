@@ -63,6 +63,11 @@
   .experience-heading-sub-text {
     font-size: 25px;
   }
+
+  .experience-heading-img-div > * {
+    max-width: 80%;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -80,9 +85,15 @@
   }
 
   .experience-header-detail-text {
-    font-size: 16px;
-    margin-right: 0px;
+    font-size: 15px;
+    margin-right: 5px;
+    max-width: 98%;
     line-height: normal;
     text-align: center;
+  }
+
+  .experience-heading-img-div > * {
+    max-width: 75%;
+    height: auto;
   }
 }

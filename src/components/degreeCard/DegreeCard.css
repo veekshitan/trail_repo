@@ -21,13 +21,14 @@
 
 .card-img {
   width: 200px;
-  height: auto;
+  height: 180px;
   border-radius: 50%;
   padding: 10px;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
+  object-fit: fill;
 }
 
 .body-header {
@@ -103,6 +104,10 @@
 }
 
 @media (max-width: 1380px) {
+  .card-img {
+    height: 120px;
+    width: 130px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -131,7 +136,8 @@
   }
 
   .card-img {
-    width: 200px;
+    height: 120px;
+    width: 120px;
   }
 
   .card-body {

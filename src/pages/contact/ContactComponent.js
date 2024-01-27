@@ -87,13 +87,13 @@ class Contact extends Component {
           </Fade> */}
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
-              <div className="contact-heading-img-div-2">
-                {/* <img
+              {/* <div className="contact-heading-img-div-2">
+                <img
 											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
-										/> */}
+										/>
                 <AddressImg theme={theme} />
-              </div>
+              </div> */}
               <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
